@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints the sizes of different data types on a 32-bit machine
+ * main - A program that prints the sizes of different data types 
  * Return: 0 (Success)
  */
 int main(void)
