@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - A program that prints the sizes of different data types 
- * Return: 0 (Success)
- */
+* main - A program that prints the sizes of different data types
+* Return: 0 (Success)
+*/
 int main(void)
 {
 printf("Size of a char: %u byte(s)\n", sizeof(char));
