@@ -2,23 +2,28 @@
 
 /**
  * main - Entry point
- *
- * This program prints the alphabet in lowercase, followed by uppercase, all in one line.
- *
- * Return: 0 (Success)
+ * Description: Print the alphabets in lowercase and uppercase.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char lowercase;
-	char uppercase;
+	int n = 97;
+	int m = 65;
 
-	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-		putchar(lowercase);
+	while (n <= 122)
+	{
+		putchar(n);
+		n++;
+	}
 
-	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
-		putchar(uppercase);
+	while (m <= 90)
+	{
+		putchar(m);
+		m++;
+	}
 
 	putchar('\n');
 
 	return (0);
 }
+
