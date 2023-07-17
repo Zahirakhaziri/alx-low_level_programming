@@ -1,9 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
-  *main - Entry point 
-  *Description: 'print numbers of base 10'
-  *Return: Always 0
-  */
+ * main - Entry point
+ *
+ * Description: Print the numbers from 0 to 9, followed by a newline character.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -11,7 +14,9 @@ int main(void)
 	for (n = 0; n <= 9; n++)
 	{
 		printf("%d", n);
-		{
-			printf("\n");
-			return (0);
-		}
+	}
+
+	printf("\n");
+
+	return (0);
+}
