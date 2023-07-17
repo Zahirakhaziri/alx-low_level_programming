@@ -1,3 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * This program prints the alphabet in lowercase, followed by uppercase, all in one line.
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	char lowercase;
@@ -13,4 +22,3 @@ int main(void)
 
 	return (0);
 }
-
