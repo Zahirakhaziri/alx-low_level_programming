@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
- *
- * Description: Print the alphabets excluding 'q' and 'e', followed by a newline character.
+ * Description 'Print the alphabets excluding q and e'
  *
  * Return: Always 0 (Success)
  */
