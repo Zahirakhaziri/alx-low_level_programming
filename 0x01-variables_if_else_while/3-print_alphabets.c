@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -7,10 +8,9 @@
  *
  * Return: 0 (Success)
  */
-int main(void) 
 int main(void)
 {
-char lowercase;
+  char lowercase;
 char uppercase;
 
 for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
@@ -21,5 +21,5 @@ putchar(uppercase);
 
 putchar('\n');
 
-return (0);
+    return (0);
 }
