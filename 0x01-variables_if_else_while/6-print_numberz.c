@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print the numbers from 0 to 9 using putchar 
+ * Description: Print the numbers from 0 to 9 using putchar . 
  *
  * Return: Always 0 (Success)
  */
