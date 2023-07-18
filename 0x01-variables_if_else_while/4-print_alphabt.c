@@ -1,11 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
-  *main - Entry point
-  *Description 'print alphabets except q and e'
-  *Return: Always 0
-  */
  * main - Entry point
- * Description 'Print the alphabets excluding q and e'
+ *
+ * Description: Print the alphabets excluding 'q' and 'e'.
  *
  * Return: Always 0 (Success)
  */
@@ -25,3 +23,5 @@ int main(void)
 	}
 	putchar('\n');
 
+	return (0);
+}
