@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Entry point 
+* main - Entry point .
 * Description: Prints "_putchar" to stdout
 * Return: Always 0
 */
@@ -17,5 +17,5 @@ _putchar('a');
 _putchar('r');
 _putchar('\n');
 
-return 0;
+return (0);
 }
