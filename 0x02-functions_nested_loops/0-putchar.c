@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include "main.h"
 
 int main(void)
 {
@@ -7,9 +8,13 @@ int main(void)
 
   for (i = 0; str[i] != '\0'; i++)
   {
-    write(1, &str[i], 1);
+    _putchar(str[i]);
   }
 
   return 0;
 }
 
+int _putchar(char c)
+{
+  return write(1, &c, 1);
+}
