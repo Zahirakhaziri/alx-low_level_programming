@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Description: Print the numbers from 0 to 9 using putchar, followed by a newline character.
+ * Description: Print the numbers from 0 to 9 using putchar.
  *
  * Return: Always 0 (Success)
  */
