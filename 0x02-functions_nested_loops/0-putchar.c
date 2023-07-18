@@ -1,6 +1,11 @@
 #include <unistd.h>
 #include "main.h"
 
+int _putchar(char c)
+{
+  return write(1, &c, 1);
+}
+
 int main(void)
 {
   char *str = "_putchar\n";
@@ -12,9 +17,4 @@ int main(void)
   }
 
   return 0;
-}
-
-int _putchar(char c)
-{
-  return write(1, &c, 1);
 }
